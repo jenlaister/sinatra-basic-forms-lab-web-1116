@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>You've adopted!</title>
+</head>
+<body>
+  <h1>Puppy Name: <%= params[:name] %></h1>
+  <h1>Puppy Breed: <%= params[:breed] %></h1>
+  <h1>Puppy Age: <%= params[:age] %></h1>
+  </body>
+</html>
+
+
+
+
+
+<!-- Now we need to make sure the form is being submitted properly.
+You'll need to have a third controller action that takes the
+input from the user and renders a third view (views/display_puppy.erb)
+which displays the info for the puppy that was just created. -->
